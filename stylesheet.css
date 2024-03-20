@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: #fbedf4;
+}
+.wrapper{
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 40px;
+    background-color:#ffbcda;
+    border-radius: 50px;
+    
+}
+h1{
+    text-align: center;
+    color:#c79274;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:#946656;
+}
