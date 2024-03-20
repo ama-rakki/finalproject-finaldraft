@@ -1,3 +1,4 @@
 {
-    "search.sortOrder": "modified"
+    "search.sortOrder": "modified",
+    "explorer.sortOrder": "modified"
 }
