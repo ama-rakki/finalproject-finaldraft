@@ -3,14 +3,14 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    background-color: #fbedf4;
+    background-image: url('images/pinkandbrownplaid.png');
 }
 .wrapper{
     width:900px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px 40px;
-    background-color:#ffbcda;
+    background-color:#fce4ef;
     border-radius: 50px;
     
 }
@@ -19,4 +19,32 @@ h1{
     color:#c79274;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color:#946656;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fce4ef ;
+    border-radius: 50px;
+    overflow: hidden;
+
+}
+li{
+    float: left;
+}
+li a{
+    display:block;
+    background-color:#E1B09C;
+    color:white;
+    padding: 8px 16px; 
+    text-decoration: none;
+    text-align: center;
+
+}
+li a:hover{
+    background-color: #C79274;
+    color: white;
+}
+.nav-boarder{
+    border-radius: 50px;
 }
