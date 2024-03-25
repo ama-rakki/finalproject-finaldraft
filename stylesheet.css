@@ -48,3 +48,6 @@ li a:hover{
 .nav-boarder{
     border-radius: 50px;
 }
+.active{
+    background-color:#946656 ;
+}
