@@ -6,6 +6,7 @@ body {
     background-image: url('images/pinkandbrownplaid.png');
     padding: 20px;
     zoom: 75%;
+    cursor: url(https://cur.cursors-4u.net/others/oth-5/oth506.cur), auto !important;
 }
 
 .wrapper {
@@ -70,12 +71,14 @@ h2 {
     -webkit-text-stroke-color: #946656;
     font-size: 80%;
 }
-h3{
-    
+
+h3 {
+
     color: #c79274;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #946656;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -88,6 +91,10 @@ ul {
 
 li {
     float: left;
+}
+
+a.hover {
+    cursor: url(https://cur.cursors-4u.net/others/oth-5/oth505.cur), auto !important;
 }
 
 li a {
@@ -112,10 +119,11 @@ li a:hover {
 .active {
     background-color: #946656;
 }
+
 .showcase {
     background: #fbd1e4;
     text-align: center;
-    
+
     overflow: auto;
     padding: 30px;
     width: 40%;
@@ -134,27 +142,32 @@ li a:hover {
     padding: 20px;
     border-radius: 10%;
 }
+
 img {
     background-color: white;
     width: 100%;
     padding: 20px;
     border-radius: 5%;
-  }
-.center{
+}
+
+.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
-*{
+
+* {
     box-sizing: border-box;
 }
-.column{
+
+.column {
     float: left;
     width: 33.33%;
-    padding:5px
+    padding: 5px
 }
-.row::after{
+
+.row::after {
     content: "";
     clear: both;
     display: table;
