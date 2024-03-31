@@ -5,6 +5,7 @@ body {
     font-size: 20px;
     background-image: url('images/pinkandbrownplaid.png');
     padding: 20px;
+    zoom: 75%;
 }
 
 .wrapper {
@@ -131,15 +132,30 @@ li a:hover {
     align-items: center;
     margin: 10px;
     padding: 20px;
+    border-radius: 10%;
 }
 img {
     background-color: white;
     width: 100%;
     padding: 20px;
+    border-radius: 5%;
   }
 .center{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+*{
+    box-sizing: border-box;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding:5px
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
 }
