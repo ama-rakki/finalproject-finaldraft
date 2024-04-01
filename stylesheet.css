@@ -2,7 +2,9 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(77, 76, 76);
     font-size: 20px;
+    line-height: 150%;
     background-image: url('images/pinkandbrownplaid.png');
     padding: 20px;
     zoom: 75%;
