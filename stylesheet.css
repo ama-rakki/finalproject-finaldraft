@@ -2,7 +2,7 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(77, 76, 76);
+    color: rgb(77, 76, 76);
     font-size: 20px;
     line-height: 150%;
     background-image: url('images/pinkandbrownplaid.png');
@@ -95,8 +95,14 @@ li {
     float: left;
 }
 
-a.hover {
+a {
+    color: rgb(77, 76, 76);
+
+}
+
+a:hover {
     cursor: url(https://cur.cursors-4u.net/others/oth-5/oth505.cur), auto !important;
+    color: rgb(77, 76, 76);
 }
 
 li a {
@@ -145,6 +151,11 @@ li a:hover {
     border-radius: 10%;
 }
 
+.showcase-item:hover {
+    background-color:  #c79274;
+    ;
+}
+
 img {
     background-color: white;
     width: 100%;
@@ -173,4 +184,16 @@ img {
     content: "";
     clear: both;
     display: table;
+}
+
+.logo {
+    width: 250px;
+    background-color: transparent;
+    display: flexbox;
+    float: left;
+    margin-top: -40px;
+}
+
+.tour-card:hover{
+    background-color: #ffbcda;
 }
