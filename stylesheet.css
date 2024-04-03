@@ -96,7 +96,7 @@ li {
 }
 
 a {
-    color: rgb(77, 76, 76);
+    color: rgb(188, 187, 187);
     text-decoration: none;
 
 }
@@ -206,4 +206,7 @@ figcaption {
 }
 .text-shadow{
     text-shadow: white 1px 0 10px;
+}
+.hover-image:hover{
+    background-color: #ffbcda ;
 }
