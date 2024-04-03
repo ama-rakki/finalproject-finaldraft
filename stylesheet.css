@@ -97,12 +97,14 @@ li {
 
 a {
     color: rgb(77, 76, 76);
+    text-decoration: none;
 
 }
 
 a:hover {
     cursor: url(https://cur.cursors-4u.net/others/oth-5/oth505.cur), auto !important;
     color: rgb(77, 76, 76);
+    text-decoration: none;
 }
 
 li a {
@@ -152,7 +154,7 @@ li a:hover {
 }
 
 .showcase-item:hover {
-    background-color:  #c79274;
+    background-color: #c79274;
     ;
 }
 
@@ -194,6 +196,14 @@ img {
     margin-top: -40px;
 }
 
-.tour-card:hover{
+.tour-card:hover {
     background-color: #ffbcda;
+}
+
+figcaption {
+    text-align: center;
+    text-decoration:none;
+}
+.text-shadow{
+    text-shadow: white 1px 0 10px;
 }
