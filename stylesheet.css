@@ -202,17 +202,32 @@ img {
 
 figcaption {
     text-align: center;
-    text-decoration:none;
+    text-decoration: none;
 }
-.text-shadow{
+
+.text-shadow {
     text-shadow: white 1px 0 10px;
 }
-.hover-image:hover{
-    background-color: #ffbcda ;
+
+.hover-image:hover {
+    background-color: #ffbcda;
 }
-.article{
-    color:rgb(77, 76, 76);
+
+.article {
+    color: rgb(77, 76, 76);
 }
-.article:hover{
+
+.article:hover {
     color: rgb(188, 187, 187);
+}
+
+.profile-container-2 {
+    display: grid;
+    grid-template-columns:auto auto;
+    gap: .1rem .1rem;
+    align-items: top center;
+}
+
+.img-grid {
+    background-color: none;
 }
