@@ -7,7 +7,7 @@ body {
     line-height: 150%;
     background-image: url('images/pinkandbrownplaid.png');
     padding: 20px;
-    zoom: 75%;
+    /* zoom: 75%; */
     cursor: url(https://cur.cursors-4u.net/others/oth-5/oth506.cur), auto !important;
 }
 
@@ -223,7 +223,7 @@ figcaption {
 
 .profile-container-2 {
     display: grid;
-    grid-template-columns:auto auto;
+    grid-template-columns: auto auto;
     gap: .1rem .1rem;
     align-items: top center;
 }
