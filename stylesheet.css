@@ -187,11 +187,22 @@ img {
     width: 25%;
     padding: 5px
 }
-
+.column2{
+    float:left;
+    width:70%;
+    padding:10px;
+}
+.column3{
+    float:right;
+    width:30%
+}
 .row::after {
     content: "";
     clear: both;
     display: table;
+}
+.microtext{
+    font-size:70%;
 }
 
 .logo {
