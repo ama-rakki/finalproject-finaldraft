@@ -1,4 +1,5 @@
 {
     "search.sortOrder": "modified",
-    "explorer.sortOrder": "modified"
+    "explorer.sortOrder": "modified",
+    "liveServer.settings.port": 5501
 }
