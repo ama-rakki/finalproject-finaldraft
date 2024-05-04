@@ -332,6 +332,24 @@ figcaption {
     color: #FC72A7;
 }
 
+
+
+.icon-white {
+    color: rgb(190, 186, 186);
+}
+
+.icon-white span {
+    display: none;
+}
+
+.icon-white:hover span {
+    display: inline;
+}
+
+.icon-white:hover {
+    color: #FC72A7;
+}
+
 .location-profile {
     display: flex;
     gap: 18px;
@@ -351,12 +369,14 @@ figcaption {
     flex-grow: 0;
     flex-shrink: 0;
 }
+
 .location-image-3 {
     width: 500px;
     /* height: 300px;  */
     flex-grow: 0;
     flex-shrink: 0;
 }
+
 .location-description p {
     margin-top: 0;
 }
