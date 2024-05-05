@@ -392,3 +392,46 @@ figcaption {
     width: 50%;
     padding: 10px;
 }
+
+.worldmapstore {
+    width: 900px;
+    height: 600px;
+    border: solid white 2px;
+    border-radius: 5%;
+    background: url(images/us-map.png) no-repeat;
+    background-size: 900px 600px;
+    padding: 0;
+    margin: 0;
+    /* adjust as needed */
+    position: relative;
+    /* needed for positioning the icons */
+}
+
+.worldmapstore-item {
+    font-size: 24px;
+    position: absolute;
+}
+
+.worldmapstore-item span {
+    font-size: 10px;
+    color: #733D26;
+    float: right;
+    background: #F9D0DE;
+    padding: 3px;
+    margin-left: 3px;
+}
+
+#worldmapstore-item-daiso {
+    top: 210px;
+    left: 0px;
+}
+
+#worldmapstore-item-chat {
+    top: 315px;
+    left: 630px;
+}
+
+#worldmapstore-item-nyc {
+    top: 135px;
+    left: 800px;
+}
